@@ -1,5 +1,10 @@
 ECE 766 - HW2 - Devin Bresser
 
+Project description:
+This is a basic object recognition system that was implemented in Python. It can identify objects in an input image, and store their properties (such as centroid coordinates, minimum moment of inertia, area, orientation, etc.) in a database.
+Then, it can compare a second input image with the database generated from the first image to match objects that are common to both images.
+The matching criteria is defined as the ratio of minimum moment of inertia to area of the binarized object.
+
 README comments:
 
 Walkthrough 1: No comments - straightforward applications.
